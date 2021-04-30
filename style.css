@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC:400,700");
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Amatic SC', sans-serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+/* navbar */
+
+.sidebar {
+    width: 10%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: rgb(5, 5, 12);
+    color: #fff;
+    box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.sidebar .brand {
+    padding: 40px 20px;
+    border-bottom: 1px solid #444;
+    width: 100%;
+}
+
+.brand a {
+    font-size: 2.5rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 0;
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-fluid {
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+
+.nav {
+    padding-left: 0;
+    width: 100%;
+}
+
+.nav-item {
+    margin-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(68, 68, 68, 0.137);
+    list-style-type: none;
+    width: 100%;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+}
+
+.nav-item:hover {
+    border-bottom: 1px solid rgb(68, 68, 68);
+    width: 100%;
+}
+
+.social {
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+}
+
+.soc-link {
+    color: #fff;
+    padding: 0px 5px 0px 5px;
+    margin: 0;
+}
+
+.grad:hover {
+    color: white;
+    text-shadow: 0 0 20px white, 0 0 20px blue, 0 0 20px darkblue;
+}
+
+
+/* Body */
+
+.container {
+    width: 88%;
+    height: 100%;
+    position: absolute;
+    left: 11%;
+}
